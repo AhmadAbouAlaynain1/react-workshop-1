@@ -8,7 +8,7 @@ const NavBar = () => {
     console.log("Hello");
   };
   return (
-    <nav className="h-4rem container w-full flex align-items-center justify-content-between bg-white fixed top-0 shadow-5">
+    <nav className="h-4rem container w-full flex align-items-center justify-content-between bg-white fixed top-0 shadow-5 z-5">
       <p>Logo</p>
       {/* Conditional Rendering */}
       {b && <p>hagsdhasghdas</p>}
